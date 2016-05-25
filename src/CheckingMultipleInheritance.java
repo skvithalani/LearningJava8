@@ -1,5 +1,5 @@
 import java.util.Objects;
-
+//static is remaining to explore in interfaces
 interface IDemo2{
     void show();
     void hide();
