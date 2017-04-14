@@ -170,14 +170,14 @@ class MyOperatorButton extends Button implements ActionListener
 {  
 MyCalculator cl;  
   
-MyOperatorButton(int x,int y, int width,int height,String cap, MyCalculator clc)  
-{  
-super(cap);  
-setBounds(x,y,width,height);  
-this.cl=clc;  
-this.cl.add(this);  
-addActionListener(this);  
-}  
+    MyOperatorButton(int x,int y, int width,int height,String cap, MyCalculator clc)  
+    {  
+        super(cap);  
+        setBounds(x,y,width,height);  
+        this.cl=clc;  
+        this.cl.add(this);  
+        addActionListener(this);  
+    }  
 ///////////////////////  
 public void actionPerformed(ActionEvent ev)  
 {  
